@@ -7,11 +7,11 @@ public class Main {
         car.displayInfo();
         motorcycle.displayInfo();
         truck.displayInfo();
-
+        System.out.println("------------------------");
         car.rent();
         motorcycle.rent();
         truck.rent();
-
+        System.out.println("------------------------");
         car.returnVehicle();
         motorcycle.returnVehicle();
         truck.returnVehicle();
